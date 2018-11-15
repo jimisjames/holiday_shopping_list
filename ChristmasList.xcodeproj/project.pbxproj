@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38433518219C8773007FF79C /* StoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38433517219C8773007FF79C /* StoresTableViewController.swift */; };
+		3843351A219C899E007FF79C /* StoreItemsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38433519219C899E007FF79C /* StoreItemsListTableViewController.swift */; };
+		3843351E219C9C66007FF79C /* snowGlobe.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3843351D219C9C66007FF79C /* snowGlobe.gif */; };
+		38433520219C9C77007FF79C /* Swift+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3843351F219C9C77007FF79C /* Swift+GIF.swift */; };
+		38433522219C9C8A007FF79C /* TitlePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38433521219C9C8A007FF79C /* TitlePageViewController.swift */; };
+		38433525219CB46C007FF79C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38433524219CB46C007FF79C /* AVFoundation.framework */; };
+		38433527219CB576007FF79C /* santa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38433526219CB576007FF79C /* santa.mp3 */; };
 		529C4AD0219B561F009B50F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529C4ACF219B561F009B50F9 /* AppDelegate.swift */; };
-		529C4AD2219B561F009B50F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529C4AD1219B561F009B50F9 /* ViewController.swift */; };
+		529C4AD2219B561F009B50F9 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529C4AD1219B561F009B50F9 /* loginViewController.swift */; };
 		529C4AD5219B561F009B50F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529C4AD3219B561F009B50F9 /* Main.storyboard */; };
 		529C4AD8219B561F009B50F9 /* ChristmasList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 529C4AD6219B561F009B50F9 /* ChristmasList.xcdatamodeld */; };
 		529C4ADA219B5620009B50F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529C4AD9219B5620009B50F9 /* Assets.xcassets */; };
 		529C4ADD219B5620009B50F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529C4ADB219B5620009B50F9 /* LaunchScreen.storyboard */; };
 		529C4AE8219B5621009B50F9 /* ChristmasListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529C4AE7219B5621009B50F9 /* ChristmasListUITests.swift */; };
+		529C4AF3219B6097009B50F9 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529C4AF2219B6097009B50F9 /* ListTableViewController.swift */; };
+		529C4AF5219B60D7009B50F9 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529C4AF4219B60D7009B50F9 /* AddItemViewController.swift */; };
+		529C4AF9219B610C009B50F9 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529C4AF8219B610C009B50F9 /* ItemDetailViewController.swift */; };
+		529C4AFB219B6409009B50F9 /* ListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529C4AFA219B6409009B50F9 /* ListDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38433517219C8773007FF79C /* StoresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresTableViewController.swift; sourceTree = "<group>"; };
+		38433519219C899E007FF79C /* StoreItemsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemsListTableViewController.swift; sourceTree = "<group>"; };
+		3843351D219C9C66007FF79C /* snowGlobe.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = snowGlobe.gif; sourceTree = "<group>"; };
+		3843351F219C9C77007FF79C /* Swift+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+GIF.swift"; sourceTree = "<group>"; };
+		38433521219C9C8A007FF79C /* TitlePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlePageViewController.swift; sourceTree = "<group>"; };
+		38433524219CB46C007FF79C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		38433526219CB576007FF79C /* santa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = santa.mp3; path = ../santa.mp3; sourceTree = "<group>"; };
+		38433528219CB579007FF79C /* santa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = santa.mp3; sourceTree = "<group>"; };
 		529C4ACC219B561F009B50F9 /* ChristmasList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristmasList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529C4ACF219B561F009B50F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		529C4AD1219B561F009B50F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		529C4AD1219B561F009B50F9 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		529C4AD4219B561F009B50F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		529C4AD7219B561F009B50F9 /* ChristmasList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChristmasList.xcdatamodel; sourceTree = "<group>"; };
 		529C4AD9219B5620009B50F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +57,10 @@
 		529C4AE3219B5621009B50F9 /* ChristmasListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		529C4AE7219B5621009B50F9 /* ChristmasListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasListUITests.swift; sourceTree = "<group>"; };
 		529C4AE9219B5621009B50F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529C4AF2219B6097009B50F9 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		529C4AF4219B60D7009B50F9 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		529C4AF8219B610C009B50F9 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		529C4AFA219B6409009B50F9 /* ListDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38433525219CB46C007FF79C /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +82,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38433523219CB46B007FF79C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38433524219CB46C007FF79C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		529C4AC3219B561F009B50F9 = {
 			isa = PBXGroup;
 			children = (
+				38433526219CB576007FF79C /* santa.mp3 */,
 				529C4ACE219B561F009B50F9 /* ChristmasList */,
 				529C4AE6219B5621009B50F9 /* ChristmasListUITests */,
 				529C4ACD219B561F009B50F9 /* Products */,
+				38433523219CB46B007FF79C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +113,19 @@
 		529C4ACE219B561F009B50F9 /* ChristmasList */ = {
 			isa = PBXGroup;
 			children = (
+				38433528219CB579007FF79C /* santa.mp3 */,
 				529C4ACF219B561F009B50F9 /* AppDelegate.swift */,
-				529C4AD1219B561F009B50F9 /* ViewController.swift */,
+				529C4AD1219B561F009B50F9 /* loginViewController.swift */,
 				529C4AD3219B561F009B50F9 /* Main.storyboard */,
+				38433521219C9C8A007FF79C /* TitlePageViewController.swift */,
+				38433519219C899E007FF79C /* StoreItemsListTableViewController.swift */,
+				38433517219C8773007FF79C /* StoresTableViewController.swift */,
+				3843351F219C9C77007FF79C /* Swift+GIF.swift */,
+				3843351D219C9C66007FF79C /* snowGlobe.gif */,
+				529C4AFA219B6409009B50F9 /* ListDelegate.swift */,
+				529C4AF8219B610C009B50F9 /* ItemDetailViewController.swift */,
+				529C4AF4219B60D7009B50F9 /* AddItemViewController.swift */,
+				529C4AF2219B6097009B50F9 /* ListTableViewController.swift */,
 				529C4AD9219B5620009B50F9 /* Assets.xcassets */,
 				529C4ADB219B5620009B50F9 /* LaunchScreen.storyboard */,
 				529C4ADE219B5620009B50F9 /* Info.plist */,
@@ -149,6 +193,11 @@
 				TargetAttributes = {
 					529C4ACB219B561F009B50F9 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					529C4AE2219B5621009B50F9 = {
 						CreatedOnToolsVersion = 10.1;
@@ -181,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				529C4ADD219B5620009B50F9 /* LaunchScreen.storyboard in Resources */,
+				38433527219CB576007FF79C /* santa.mp3 in Resources */,
+				3843351E219C9C66007FF79C /* snowGlobe.gif in Resources */,
 				529C4ADA219B5620009B50F9 /* Assets.xcassets in Resources */,
 				529C4AD5219B561F009B50F9 /* Main.storyboard in Resources */,
 			);
@@ -200,9 +251,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529C4AF5219B60D7009B50F9 /* AddItemViewController.swift in Sources */,
+				38433518219C8773007FF79C /* StoresTableViewController.swift in Sources */,
+				529C4AF9219B610C009B50F9 /* ItemDetailViewController.swift in Sources */,
 				529C4AD8219B561F009B50F9 /* ChristmasList.xcdatamodeld in Sources */,
-				529C4AD2219B561F009B50F9 /* ViewController.swift in Sources */,
+				38433522219C9C8A007FF79C /* TitlePageViewController.swift in Sources */,
+				3843351A219C899E007FF79C /* StoreItemsListTableViewController.swift in Sources */,
+				529C4AD2219B561F009B50F9 /* loginViewController.swift in Sources */,
+				529C4AFB219B6409009B50F9 /* ListDelegate.swift in Sources */,
 				529C4AD0219B561F009B50F9 /* AppDelegate.swift in Sources */,
+				38433520219C9C77007FF79C /* Swift+GIF.swift in Sources */,
+				529C4AF3219B6097009B50F9 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +430,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DLM.ChristmasList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -389,7 +448,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DLM.ChristmasList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
